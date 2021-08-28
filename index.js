@@ -3,7 +3,7 @@ const express = require("express");
 var fs = require('fs')
 
 const bot = new Aoijs.Bot({
-token:"ODAzMjIyNzEzNDIxNTI5MDg5.YA6pcg.eP30h-2oXFb5WY_eOlsQwci-4fY",
+token:"Token",
   prefix: "C!",
 })
   bot.onMessage()
