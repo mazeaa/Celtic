@@ -1,11 +1,10 @@
 const Aoijs = require("aoi.js")
-const express = require("express");
 var fs = require('fs')
-
 const bot = new Aoijs.Bot({
-token:"ODAzMjIyNzEzNDIxNTI5MDg5.YA6pcg.eP30h-2oXFb5WY_eOlsQwci-4fY",
+token:"ODAzMjIyNzEzNDIxNTI5MDg5.YA6pcg.fOSvAVEOQcyDp8ucYp22wuw2D4c",
   prefix: "C!",
 })
+
   bot.onMessage()
   var reader = fs.readdirSync("./commands/").filter(file => file.endsWith(".js"))
   for (const file of reader) {
@@ -146,10 +145,9 @@ bot.variables({
     spiteful: "0",
 })
 
-require('./server')();
-
 bot.awaitedCommand({
  name: "errorrank",
  code: `$setServerVar[rch;]
 $onlyForServers[$guildID;]`
 })
+

@@ -7,6 +7,4 @@ $jsonRequest[http://api.somecool.repl.co/yt-search?search=$message;title;]] $des
      $color[#00FFFF]
      $argsCheck[>1;{title:Error}{description::KBError: Wrong arguments! Try: \`C!play <message/link>\`
 You didn't type **music name/link**.}{color:FB1B1B}{timestamp}]
-$onlyIf[$voiceID!=;{title:Error}{description::KBError: You're not in a voice channel. Please join one first.}{color:FB1B1B}{timestamp}]
-    
-    `}
+$onlyIf[$voiceID!=;{title:Error}{description:🚫 You're not in a voice channel. Please join one first.}{color:FB1B1B}{timestamp}]`}

@@ -11,7 +11,7 @@ $$numberSeparator[$getGlobalUserVar[Wallet;$mentioned[1;yes]]]
 $addField[🏦 Bank;
 $$numberSeparator[$getGlobalUserVar[Bank;$mentioned[1;yes]]]
 ]
-$addField[📊 Net Worth;
+$addField[💸 Net Worth;
 $$numberSeparator[$sum[$getGlobalUserVar[Wallet;$mentioned[1;yes]];$getGlobalUserVar[Bank;$mentioned[1;yes]]]]
 ]]`
 }

@@ -8,7 +8,7 @@ module.exports = {
 Kick, ban, unaban, purge, setlogs
 
 📈 **Economy :**
-Bal, work, beg, dep, withdraw, profile, daily, usedailybox, heist, givemoney, shop
+Bal, work, beg, dep, withdraw, profile, daily, usedailybox, heist, givemoney, shop, buycar, buylaptop, buyluckychest, buyphone, buyspiteful, openspiteful, openlucky, rob, search, scrapcar, fish, lbbank, lbwallet
   
 🎵 **Music :**
 Play, skip, stop, pause, resume, queue, nowplaying, loop, loopqueue, leavevc, lyrics

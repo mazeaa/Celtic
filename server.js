@@ -1,7 +1,25 @@
-const app = require('express')();
+const express = require('express');
+const server = express();
 
-app.get('/', (req, res) => res.send('Simple Discord Bot Template By MrWaw, Make your 24/7 discord bot for free at https://repl.it/@MrWaw/Simple-Discord-Bot'));
 
-module.exports = () => {
-  app.listen(3000);
+
+server.all('/', (req, res)=>{
+
+   res.setHeader('Content-Type', 'text/html');
+
+   res.write('<link href="https://fonts.googleapis.com/css?family=Roboto Condensed" rel="stylesheet"> <style> body {font-family: "Roboto Condensed";font-size: 22px;} <p>Hosting Active</p>');
+
+   res.end();
+
+})
+
+
+function keepAlive(){
+
+   server.listen(3000, ()=>{console.log("Server is online!")});
+
 }
+
+
+
+module.exports = keepAlive;
