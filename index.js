@@ -1,7 +1,7 @@
 const Aoijs = require("aoi.js")
 var fs = require('fs')
 const bot = new Aoijs.Bot({
-token:"ODAzMjIyNzEzNDIxNTI5MDg5.YA6pcg.fOSvAVEOQcyDp8ucYp22wuw2D4c",
+token:"",
   prefix: "C!",
 })
 
