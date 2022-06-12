@@ -1,3 +1,5 @@
+//This code is of the older verison of aoi.js
+
 const Aoijs = require("aoi.js")
 const express = require("express");
 var fs = require('fs')
